@@ -1,0 +1,256 @@
+
+body.custom-bg{
+  background-color: #f8f6f6;
+}
+
+footer {
+  background: linear-gradient(to right, #C8E6C9, #BBDEFB);
+  color: #333; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.shadow{
+  background-color: #f8f6f6;
+}
+.header{
+  background: linear-gradient(to right, #C8E6C9, #BBDEFB);
+  color: #333; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btnCate{
+  margin-left: 13.6%;
+}
+
+/* Servicios */
+
+#carouselServices .div-servis {
+  width: 100%;
+  max-width: 300px;
+  height: 420px;
+  border-radius: 25px;
+  margin: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.div-servis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#carouselServices .div-servis2 {
+  width: 100%;
+  max-width: 300px;
+  height: 400px;
+  border-radius: 25px;
+  margin: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.div-servis2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.titlecontainer {
+  width: 100%;
+  height: 100px;
+}
+
+.titlecontainer h3, .titlecontainer p {
+  width: 100%;
+  height: 20px;
+  margin: 0;
+}
+
+#carouselServices .div-servis h3, #carouselServices .div-servis p, #carouselServices .div-servis2 p, .div-servis2 h3 {
+  font-weight: bold;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  margin: 0.5rem 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: bold;
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
+
+.info-servicios {
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.container-di-servis {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+/* Botones de navegación del carrusel */
+.carousel-control-prev, .carousel-control-next {
+  width: 5%; 
+  height: 100%; 
+  color: #000;
+  opacity: 0.8;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: rgba(49, 49, 49, 0.5); 
+  border-radius: 50%;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  opacity: 1; 
+}
+/* Tabla de Categoría*/
+.table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table .btn-sm {
+  font-size: 0.875rem;
+}
+
+.table .btn-outline-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.table .btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+/* Dashboard Modal Ver Mas */
+.modal-content {
+  background-color: #fff; 
+  border-radius: 0.5rem; 
+  padding: 1rem; 
+}
+
+.modal-header {
+  border-bottom: 1px solid #e9ecef;
+  background-color: #f8f9fa; 
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: 600; 
+  color: #333;
+}
+
+.modal-body {
+  padding: 2rem; 
+}
+
+#modalTitulo {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #212529;
+}
+
+#modalCategoria {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+#modalTexto {
+  font-size: 1rem;
+  color: #495057; 
+  line-height: 1.6; 
+}
+
+#modalImagen {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem; 
+}
+
+.modal-footer {
+  border-top: 1px solid #e9ecef; 
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #f8f9fa;
+}
+
+.btn-primary {
+  background-color: #007bff; 
+  border-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; 
+  border-color: #004085;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded-3 {
+    border-radius: 0.5rem; 
+}
+
+.shadow-lg {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
